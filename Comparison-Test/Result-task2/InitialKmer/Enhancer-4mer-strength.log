@@ -1,0 +1,1435 @@
+nohup: 忽略输入
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/torchtext/vocab/__init__.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/torchtext/utils.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/torchtext/data/__init__.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/torch/nn/modules/transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+pretrain classifier epochs:  0
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+pretrain classifier epochs:  1
+pretrain classifier epochs:  2
+pretrain classifier epochs:  3
+pretrain classifier epochs:  4
+pretrain classifier epochs:  5
+pretrain classifier epochs:  6
+pretrain classifier epochs:  7
+pretrain classifier epochs:  8
+pretrain classifier epochs:  9
+pretrain classifier epochs:  10
+pretrain classifier epochs:  11
+pretrain classifier epochs:  12
+pretrain classifier epochs:  13
+pretrain classifier epochs:  14
+pretrain classifier epochs:  15
+pretrain classifier epochs:  16
+pretrain classifier epochs:  17
+pretrain classifier epochs:  18
+pretrain classifier epochs:  19
+pretrain classifier epochs:  20
+pretrain classifier epochs:  21
+pretrain classifier epochs:  22
+pretrain classifier epochs:  23
+pretrain classifier epochs:  24
+pretrain classifier epochs:  25
+pretrain classifier epochs:  26
+pretrain classifier epochs:  27
+pretrain classifier epochs:  28
+pretrain classifier epochs:  29
+pretrain classifier epochs:  30
+pretrain classifier epochs:  31
+pretrain classifier epochs:  32
+pretrain classifier epochs:  33
+pretrain classifier epochs:  34
+pretrain classifier epochs:  35
+pretrain classifier epochs:  36
+pretrain classifier epochs:  37
+pretrain classifier epochs:  38
+pretrain classifier epochs:  39
+pretrain classifier epochs:  40
+pretrain classifier epochs:  41
+pretrain classifier epochs:  42
+pretrain classifier epochs:  43
+pretrain classifier epochs:  44
+pretrain classifier epochs:  45
+pretrain classifier epochs:  46
+pretrain classifier epochs:  47
+pretrain classifier epochs:  48
+pretrain classifier epochs:  49
+pretrain classifier epochs:  50
+pretrain classifier epochs:  51
+pretrain classifier epochs:  52
+pretrain classifier epochs:  53
+pretrain classifier epochs:  54
+pretrain classifier epochs:  55
+pretrain classifier epochs:  56
+pretrain classifier epochs:  57
+pretrain classifier epochs:  58
+pretrain classifier epochs:  59
+pretrain classifier epochs:  60
+pretrain classifier epochs:  61
+pretrain classifier epochs:  62
+pretrain classifier epochs:  63
+pretrain classifier epochs:  64
+pretrain classifier epochs:  65
+pretrain classifier epochs:  66
+pretrain classifier epochs:  67
+pretrain classifier epochs:  68
+pretrain classifier epochs:  69
+pretrain classifier epochs:  70
+pretrain classifier epochs:  71
+pretrain classifier epochs:  72
+pretrain classifier epochs:  73
+pretrain classifier epochs:  74
+pretrain classifier epochs:  75
+pretrain classifier epochs:  76
+pretrain classifier epochs:  77
+pretrain classifier epochs:  78
+pretrain classifier epochs:  79
+pretrain classifier epochs:  80
+pretrain classifier epochs:  81
+pretrain classifier epochs:  82
+pretrain classifier epochs:  83
+pretrain classifier epochs:  84
+pretrain classifier epochs:  85
+pretrain classifier epochs:  86
+pretrain classifier epochs:  87
+pretrain classifier epochs:  88
+pretrain classifier epochs:  89
+pretrain classifier epochs:  90
+pretrain classifier epochs:  91
+pretrain classifier epochs:  92
+pretrain classifier epochs:  93
+pretrain classifier epochs:  94
+pretrain classifier epochs:  95
+pretrain classifier epochs:  96
+pretrain classifier epochs:  97
+pretrain classifier epochs:  98
+pretrain classifier epochs:  99
+Using cuda device
+/home/muxc/anaconda3/envs/Enhancer/lib/python3.8/site-packages/stable_baselines3/common/vec_env/patch_gym.py:49: UserWarning: You provided an OpenAI Gym environment. We strongly recommend transitioning to Gymnasium environments. Stable-Baselines3 is automatically wrapping your environments in a compatibility layer, which could potentially cause issues.
+  warnings.warn(
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 21       |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 58       |
+|    total_timesteps | 2048     |
+---------------------------------
+
+ *** jointly training *** 
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 13.4     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 62       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 1/100, Loss: 0.79, Accuracy: 0.71%
+Epoch 1/100, Val Accuracy: 53.33%
+Validation accuracy increased (0.000000 --> 53.333333).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 18.2     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 62       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 2/100, Loss: 0.35, Accuracy: 0.85%
+Epoch 2/100, Val Accuracy: 56.00%
+Validation accuracy increased (53.333333 --> 56.000000).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 13.8     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 3/100, Loss: 0.11, Accuracy: 0.96%
+Epoch 3/100, Val Accuracy: 54.00%
+EarlyStopping counter: 1 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 18.5     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 4/100, Loss: 0.01, Accuracy: 1.00%
+Epoch 4/100, Val Accuracy: 54.00%
+EarlyStopping counter: 2 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 18.7     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 62       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 5/100, Loss: 0.08, Accuracy: 0.97%
+Epoch 5/100, Val Accuracy: 56.67%
+Validation accuracy increased (56.000000 --> 56.666667).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.9     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 6/100, Loss: 0.03, Accuracy: 0.99%
+Epoch 6/100, Val Accuracy: 57.33%
+Validation accuracy increased (56.666667 --> 57.333333).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 18.1     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 65       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 7/100, Loss: 0.02, Accuracy: 0.99%
+Epoch 7/100, Val Accuracy: 48.00%
+EarlyStopping counter: 1 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.8     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 63       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 8/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 8/100, Val Accuracy: 50.00%
+EarlyStopping counter: 2 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.1     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 58       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 9/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 9/100, Val Accuracy: 50.67%
+EarlyStopping counter: 3 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.8     |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 10/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 10/100, Val Accuracy: 53.33%
+EarlyStopping counter: 4 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 18.8     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 11/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 11/100, Val Accuracy: 48.67%
+EarlyStopping counter: 5 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.5     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 65       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 12/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 12/100, Val Accuracy: 50.67%
+EarlyStopping counter: 6 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.7     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 13/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 13/100, Val Accuracy: 50.67%
+EarlyStopping counter: 7 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.2     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 14/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 14/100, Val Accuracy: 56.00%
+EarlyStopping counter: 8 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.4     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 15/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 15/100, Val Accuracy: 54.00%
+EarlyStopping counter: 9 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.6     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 16/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 16/100, Val Accuracy: 54.67%
+EarlyStopping counter: 10 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.6     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 17/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 17/100, Val Accuracy: 49.33%
+EarlyStopping counter: 11 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.5     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 18/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 18/100, Val Accuracy: 50.00%
+EarlyStopping counter: 12 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.4     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 19/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 19/100, Val Accuracy: 50.67%
+EarlyStopping counter: 13 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 19.9     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 69       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 20/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 20/100, Val Accuracy: 50.00%
+EarlyStopping counter: 14 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 21/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 21/100, Val Accuracy: 49.33%
+EarlyStopping counter: 15 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 57       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 22/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 22/100, Val Accuracy: 47.33%
+EarlyStopping counter: 16 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 23/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 23/100, Val Accuracy: 48.67%
+EarlyStopping counter: 17 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 24/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 24/100, Val Accuracy: 58.67%
+Validation accuracy increased (57.333333 --> 58.666667).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 25/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 25/100, Val Accuracy: 50.00%
+EarlyStopping counter: 1 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 26/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 26/100, Val Accuracy: 47.33%
+EarlyStopping counter: 2 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 27/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 27/100, Val Accuracy: 54.00%
+EarlyStopping counter: 3 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 28/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 28/100, Val Accuracy: 54.00%
+EarlyStopping counter: 4 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 56       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 29/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 29/100, Val Accuracy: 47.33%
+EarlyStopping counter: 5 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 30/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 30/100, Val Accuracy: 52.67%
+EarlyStopping counter: 6 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 58       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 31/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 31/100, Val Accuracy: 46.67%
+EarlyStopping counter: 7 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 52       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 32/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 32/100, Val Accuracy: 52.67%
+EarlyStopping counter: 8 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 33/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 33/100, Val Accuracy: 51.33%
+EarlyStopping counter: 9 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 60       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 34/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 34/100, Val Accuracy: 53.33%
+EarlyStopping counter: 10 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 35/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 35/100, Val Accuracy: 54.67%
+EarlyStopping counter: 11 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 36/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 36/100, Val Accuracy: 55.33%
+EarlyStopping counter: 12 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 37/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 37/100, Val Accuracy: 55.33%
+EarlyStopping counter: 13 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.2     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 38/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 38/100, Val Accuracy: 46.00%
+EarlyStopping counter: 14 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.2     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 63       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 39/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 39/100, Val Accuracy: 43.33%
+EarlyStopping counter: 15 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 63       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 40/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 40/100, Val Accuracy: 45.33%
+EarlyStopping counter: 16 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 41/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 41/100, Val Accuracy: 49.33%
+EarlyStopping counter: 17 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 42/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 42/100, Val Accuracy: 42.00%
+EarlyStopping counter: 18 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 43/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 43/100, Val Accuracy: 46.67%
+EarlyStopping counter: 19 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.2     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 65       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 44/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 44/100, Val Accuracy: 44.00%
+EarlyStopping counter: 20 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.2     |
+| time/              |          |
+|    fps             | 39       |
+|    iterations      | 1        |
+|    time_elapsed    | 52       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 45/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 45/100, Val Accuracy: 45.33%
+EarlyStopping counter: 21 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20       |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 46/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 46/100, Val Accuracy: 45.33%
+EarlyStopping counter: 22 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.1     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 47/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 47/100, Val Accuracy: 51.33%
+EarlyStopping counter: 23 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.1     |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 48/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 48/100, Val Accuracy: 51.33%
+EarlyStopping counter: 24 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.2     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 68       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 49/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 49/100, Val Accuracy: 52.00%
+EarlyStopping counter: 25 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 69       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 50/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 50/100, Val Accuracy: 47.33%
+EarlyStopping counter: 26 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 29       |
+|    iterations      | 1        |
+|    time_elapsed    | 69       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 51/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 51/100, Val Accuracy: 51.33%
+EarlyStopping counter: 27 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 52/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 52/100, Val Accuracy: 56.00%
+EarlyStopping counter: 28 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 53/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 53/100, Val Accuracy: 54.00%
+EarlyStopping counter: 29 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 54/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 54/100, Val Accuracy: 56.00%
+EarlyStopping counter: 30 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 55/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 55/100, Val Accuracy: 56.00%
+EarlyStopping counter: 31 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 56/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 56/100, Val Accuracy: 54.67%
+EarlyStopping counter: 32 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 37       |
+|    iterations      | 1        |
+|    time_elapsed    | 54       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 57/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 57/100, Val Accuracy: 53.33%
+EarlyStopping counter: 33 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 33       |
+|    iterations      | 1        |
+|    time_elapsed    | 61       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 58/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 58/100, Val Accuracy: 50.00%
+EarlyStopping counter: 34 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 59/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 59/100, Val Accuracy: 55.33%
+EarlyStopping counter: 35 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 60/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 60/100, Val Accuracy: 53.33%
+EarlyStopping counter: 36 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 61/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 61/100, Val Accuracy: 50.67%
+EarlyStopping counter: 37 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 58       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 62/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 62/100, Val Accuracy: 50.67%
+EarlyStopping counter: 38 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 64       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 63/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 63/100, Val Accuracy: 50.67%
+EarlyStopping counter: 39 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 35       |
+|    iterations      | 1        |
+|    time_elapsed    | 58       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 64/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 64/100, Val Accuracy: 54.00%
+EarlyStopping counter: 40 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 65/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 65/100, Val Accuracy: 54.67%
+EarlyStopping counter: 41 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 66/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 66/100, Val Accuracy: 51.33%
+EarlyStopping counter: 42 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.4     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 67/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 67/100, Val Accuracy: 52.00%
+EarlyStopping counter: 43 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 53       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 68/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 68/100, Val Accuracy: 54.67%
+EarlyStopping counter: 44 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 62       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 69/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 69/100, Val Accuracy: 54.00%
+EarlyStopping counter: 45 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 36       |
+|    iterations      | 1        |
+|    time_elapsed    | 55       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 70/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 70/100, Val Accuracy: 53.33%
+EarlyStopping counter: 46 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 34       |
+|    iterations      | 1        |
+|    time_elapsed    | 59       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 71/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 71/100, Val Accuracy: 53.33%
+EarlyStopping counter: 47 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 63       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 72/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 72/100, Val Accuracy: 54.67%
+EarlyStopping counter: 48 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 32       |
+|    iterations      | 1        |
+|    time_elapsed    | 63       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 73/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 73/100, Val Accuracy: 51.33%
+EarlyStopping counter: 49 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 65       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 74/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 74/100, Val Accuracy: 50.67%
+EarlyStopping counter: 50 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 38       |
+|    iterations      | 1        |
+|    time_elapsed    | 52       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 75/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 75/100, Val Accuracy: 55.33%
+EarlyStopping counter: 51 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 66       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 76/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 76/100, Val Accuracy: 58.00%
+EarlyStopping counter: 52 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 31       |
+|    iterations      | 1        |
+|    time_elapsed    | 65       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 77/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 77/100, Val Accuracy: 57.33%
+EarlyStopping counter: 53 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 78/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 78/100, Val Accuracy: 56.00%
+EarlyStopping counter: 54 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 79/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 79/100, Val Accuracy: 53.33%
+EarlyStopping counter: 55 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 80/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 80/100, Val Accuracy: 53.33%
+EarlyStopping counter: 56 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 81/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 81/100, Val Accuracy: 54.67%
+EarlyStopping counter: 57 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 82/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 82/100, Val Accuracy: 55.33%
+EarlyStopping counter: 58 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 83/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 83/100, Val Accuracy: 54.00%
+EarlyStopping counter: 59 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 84/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 84/100, Val Accuracy: 53.33%
+EarlyStopping counter: 60 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 85/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 85/100, Val Accuracy: 53.33%
+EarlyStopping counter: 61 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 86/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 86/100, Val Accuracy: 52.00%
+EarlyStopping counter: 62 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 87/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 87/100, Val Accuracy: 52.67%
+EarlyStopping counter: 63 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 88/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 88/100, Val Accuracy: 45.33%
+EarlyStopping counter: 64 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 89/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 89/100, Val Accuracy: 52.00%
+EarlyStopping counter: 65 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 90/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 90/100, Val Accuracy: 49.33%
+EarlyStopping counter: 66 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.5     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 91/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 91/100, Val Accuracy: 49.33%
+EarlyStopping counter: 67 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 92/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 92/100, Val Accuracy: 52.67%
+EarlyStopping counter: 68 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 93/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 93/100, Val Accuracy: 57.33%
+EarlyStopping counter: 69 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 94/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 94/100, Val Accuracy: 63.33%
+Validation accuracy increased (58.666667 --> 63.333333).  Best model ...
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 95/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 95/100, Val Accuracy: 52.00%
+EarlyStopping counter: 1 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 96/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 96/100, Val Accuracy: 56.00%
+EarlyStopping counter: 2 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 97/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 97/100, Val Accuracy: 50.67%
+EarlyStopping counter: 3 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 98/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 98/100, Val Accuracy: 46.67%
+EarlyStopping counter: 4 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.6     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 99/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 99/100, Val Accuracy: 45.33%
+EarlyStopping counter: 5 out of 100
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21       |
+|    ep_rew_mean     | 20.7     |
+| time/              |          |
+|    fps             | 45       |
+|    iterations      | 1        |
+|    time_elapsed    | 45       |
+|    total_timesteps | 2048     |
+---------------------------------
+Epoch 100/100, Loss: 0.00, Accuracy: 1.00%
+Epoch 100/100, Val Accuracy: 44.00%
+EarlyStopping counter: 6 out of 100
+Best model Test Accuracy: 81.000000%, Test MCC: 0.645833,             Test Sn: 0.950000, Test Sp: 0.670000, Test AUC: 0.852600
